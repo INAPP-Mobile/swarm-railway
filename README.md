@@ -125,7 +125,7 @@ come from each provider's API with catalog defaults as fallback.
 - **Team home** — the shared sandbox every bot sees (`SWARM_SANDBOX_DIR`,
   default `/tmp/swarm-sandbox`). Publish finished work here.
 - **Private homes** — isolated per-bot drafts under
-  `private/<agent>` inside the team home. Keep work-in-progress here
+  `private/{agent}` inside the team home. Keep work-in-progress here
   before sharing it.
 - **Host tools** — optional `system_run` / `system_read` / `system_write`
   on this machine, bound to `SWARM_SYSTEM_ROOT`. Set `SWARM_SYSTEM=0`
